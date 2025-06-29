@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+
+#navegacao {
+    margin: 40px;
+    width: 100%;
+    height: 10px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navegacao li {
+    display: inline;
+}
+
+nav a {
+    color: #494747;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+
+.divider {
+    border: 3px solid;
+    margin: 10px 100px;
+    font-size: medium;
+    color: #bdbdbdbd
+}
+
+main {
+    display: flex;
+    margin-top: 10px;
+
+
+}
+
+#conteiner {
+    width: 100%;
+}
+
+.passeiosContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 100px;
+    /* Inserido padding de 100 para afastar o do lado esquerdo */
+}
+
+/* ISOLADO, POIS DEIXA AS IMAGENS GRANDE*/
+/*.passeiosContainer image{
+    max-width: 250px;
+    max-height: 250px;
+}*/
+.passeios {
+   width: 300px;
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+text-align: left;
+margin-left: 100px;
+}
+
+.passeios img {
+    /*Chamei a class para definir o tamanho das imagens*/
+    /*width: 600px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    padding: 20px;*/
+}
+
+.passeios1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 900px;/*UTILIZEI PARA AFASTAR DAS IMAGENS*/
+    margin-right: 150px;
+    margin-bottom: 20px;
+    border: 1px solid #bdbdbdbd;
+    padding: 70px;
+
+}
+
+.passeios1 a {
+    color: #ffffff;
+    background-color: #4343d2;
+    border-radius: 1px #4343d2;
+    font-size: 20px;
+}
+
+.passeios2 span {
+    font-size: 50px;
+}
+
+.passeios2 {
+    padding: 70px;
+    font-weight: 700;
+    margin-right: 150px;
+    border: 1px solid#bdbdbdbd;
+    margin-left: 900px; /*UTILIZEI PARA AFASTAR DAS IMAGENS*/
+    margin-bottom: 20px;
+
+}
+
+.passeios2 ul {
+    color: #494747;
+    display: flex;
+    flex-direction: column;
+       
+}
+
+.passeios3 {
+    padding: 70px;
+    font-size: 50px;
+    font-weight: 700;
+    margin-right: 150px;
+    border: 1px solid#bdbdbdbd;
+    margin-left: 900px;/*UTILIZEI PARA AFASTAR DAS IMAGENS*/
+    margin-bottom: 20px;
+    justify-content: space-between;
+
+}
+
+#containerTag button>a {
+    color: #494747;
+    background-color: #bdbdbdbd;
+    font-size: 40px;
+    justify-content: space-around;
+}
+
+#rodape {
+    margin-top: 100px;
+    font-size: 35px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+}

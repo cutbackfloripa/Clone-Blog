@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Blogzin</title>
+</head>
+<Header id="navegacao">
+    <h1>Blogzin</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Categorias</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+</Header>
+
+<body>
+    <!--Inseri a class do SEPARADOR no ínicio do BODY-->
+    <div class="separador">
+        <hr class="divider" />
+        <main>
+            <section id="container">
+                <div class="passeiosContainer">
+                    <div class="passeios">
+                        <img src="./image/f1.jpg" alt="Barco">
+                        <h2>Algum Título</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam architecto ut
+                            voluptatibus,
+                            facere
+                            ipsam sunt fugiat blanditiis iure eius eligendi dolorum ex iusto voluptatem modi eaque,
+                            distinctio
+                            incidunt harum! Delectus.</p>
+                        <span>Por: Gustavo Menescal</span>
+                        <a href="#">Ler mais</a>
+
+                        <div class="passeios">
+                            <img src="./image/f2.jpg" alt="Cachoeira">
+                            <h2>Algum Título</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam architecto ut
+                                voluptatibus, facere
+                                ipsam sunt fugiat blanditiis iure eius eligendi dolorum ex iusto voluptatem modi eaque,
+                                distinctio
+                                incidunt harum! Delectus.</p>
+                            <span>Por: Gustavo Menescal</span>
+                            <a href="#">Ler mais</a>
+                        </div>
+
+                        <div class="passeios">
+                            <img src="./image/f3.jpg" alt="Balão">
+                            <h2>Algum Título</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam architecto ut
+                                voluptatibus, facere
+                                ipsam sunt fugiat blanditiis iure eius eligendi dolorum ex iusto voluptatem modi eaque,
+                                distinctio
+                                incidunt harum! Delectus.</p>
+                            <span>Por: Gustavo Menescal</span>
+                            <a href="#">Ler mais</a>
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <!--Retirei o bloco parafora do container-->
+                <div class="passeios1"> <!--Renomeei a class coma númeração 1-->
+                    <span>Busca</span>
+                    <form id="buscas" action="userdata.php" method="post">
+                        <input type="text" name="username" placeholder="Pesquise no blog">
+                        <a href="#">Buscar</a>
+                    </form>
+                </div>
+
+                <div class="passeios2"> <!--Renomeei a class coma númeração 2-->
+                    <span>Categorias</span>
+                    <ul>
+                        <a href="#">Paisagens</a>
+                        <a href="#">Aventura</a>
+                        <a href="#"> Viagens longas</a>
+                        <a href="#">Floresta</a>
+                        <a href="#">Cachoeira</a>
+                    </ul>
+                </div>
+
+                <div class="passeios3"> <!--Renomeei a class coma númeração 3-->
+                    <span>Tags</span>
+                    <div id="containerTag">
+                        <button><a href="#">Lifestyle</a></button>
+                        <button><a href="#">Viagem</a></button>
+                        <button><a href="#">Barco</a></button>
+                        <button><a href="#">Trilha</a></button>
+                        <button><a href="#">Tirolesa</a></button>
+                        <button><a href="#">Rafting</a></button>
+                        <button><a href="#">Parapente</a></button>
+                    </div>
+
+
+
+                </div>
+
+
+            </section>
+        </main>
+        <!--Inseri a class do SEPARADOR antes do FOOTER-->
+        <div class="separador">
+            <hr class="divider" />
+
+        </div>
+        <footer id="rodape">
+            <h2>Blog</h2>
+            <span> Os melhores registros de aventuras</span>
+            <span> 2024 © Blogzin pra se aventurar no HTML/CSS</span>
+
+        </footer>
+
+</body>
+
+</html>
